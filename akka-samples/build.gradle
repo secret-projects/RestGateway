@@ -1,0 +1,15 @@
+group 'com.secretprojects'
+version '1.0'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.typesafe.akka:akka-actor_2.11:2.3.16'
+}
